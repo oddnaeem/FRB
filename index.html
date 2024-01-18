@@ -1,0 +1,513 @@
+<html><head>
+    <title> FRB Class Routine </title>
+    <link rel="icon" href="https://frb24.aparsclassroom.com/assets/img/logo.png">
+  <style>
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  h2{
+    text-align: center;
+  }
+  
+  #myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #myTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #myTable tr:hover {background-color: #ddd;}
+  
+  #myTable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+  #lang{
+    background-color:  #ff3333;
+    color: #ddd;
+  }
+  #myInput,#myInput1,#myInput2{
+    width:100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 3px solid #0c0c0c; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  #container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+  }
+  </style>
+  </head> 
+  <body>
+    <div align="center"> 
+    <h1> FRB HSC 24 Dynamic Routine</h1>
+    <div id="container">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Inter The Instructor Name"/>
+    <input type="text" id="myInput1" onkeyup="myFunction1()" placeholder="Inter The Subject Name"/>
+    <input type="text" id="myInput2" onkeyup="myFunction2()" placeholder="Inter The Date"/>
+  </div>
+</div>
+  
+  <b></b><table id="myTable">
+    <tbody><tr>   
+      <th>Instructor</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Subject</th>
+   
+    </tr>
+    <tr> 
+      <td>Mashrur Hussain	</td>
+      <td>20 January</td>
+      <td>8:30 PM</td>
+      <td>Physics</td>
+   
+    </tr>
+    <tr>
+      <td>Abhi Datta Tushar</td>
+      <td>21 January</td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+      
+    </tr>
+    <tr>
+      <td>Shampod Bhowmick</td>
+      <td>22 January</td>
+      <td>2:30 PM</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td>Hasnat Shuvro</td>
+     <td>22 January</td>
+      <td>8:30 PM</td>
+      <td>Biology</td>
+    </tr>
+    <tr><td>Rezaul Karim </td>
+      <td>23 January</td>
+      <td>2:30 PM</td>
+      <td>English</td>
+      
+    </tr>
+    <tr><td>Hemel Barua</td>
+      <td>23 January</td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+      
+    </tr>
+    <tr><td>Hasnat Shuvro</td>
+      <td>24 January</td>
+      <td>2:30 PM</td>
+      <td>Biology</td>
+      
+    </tr>
+    <tr><td>Mashrur Hussain</td>
+      <td>24 January</td>
+      <td>8:30 PM</td>
+      <td>Physics</td>
+    </tr>
+    <tr>   <td>Omar Faruq</td>
+      <td>25 January</td>
+      <td>2:30 PM</td>
+      <td>Bangla</td>
+   
+    </tr>
+    <tr>    
+      <td> Abhi Datta Tushar </td>
+      <td>25 January</td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+  
+    </tr>
+    <tr>
+      <td>Omar Faruq</td>
+      <td>26 January</td>
+      <td>2:30 PM</td>
+      <td>Bangla</td>
+      
+    </tr>
+    <tr> 
+      <td> Hemel Barua </td>
+      <td>26 January</td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+     
+    </tr>
+    <tr> 
+      <td>Mashrur Hussain</td>
+      <td>27 January</td>
+      <td>8:30 PM</td>
+      <td>Physics </td>
+     
+    </tr>
+    <tr> <td> Kazi Rakibul Hasan </td>
+      <td>28 January</td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+     
+    </tr>
+    <tr><td>Rezaul Karim</td>
+      <td>29 January</td>
+      <td>2:30 PM</td>
+      <td>English</td>
+      
+    </tr>
+    <tr><td>Hasnat Shuvro</td>
+      <td>29 January</td>
+      <td>8:30 PM</td>
+      <td>Biology</td>
+      
+    </tr>
+    <tr><td>Shampod Bhowmick</td>
+      <td>30 January</td>
+      <td>2:30 PM</td>
+      <td>English</td>
+      
+    </tr>
+    <tr> <td> Hemel Barua</td>
+      <td>30 January</td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+     
+    </tr>
+    <tr><td>Hasnat Shuvro</td>
+      <td>31 January</td>
+      <td>2:30 PM</td>
+      <td>Biology</td>
+      
+    </tr>
+    <tr>   <td>Apurbo Opu</td>
+      <td>31 January</td>
+      <td>8:30 PM</td>
+      <td>Physics</td>
+   
+    </tr>
+    <tr><td>Sharoare Hosan Emon</td>
+      <td>1 February </td>
+      <td>2:30 PM</td>
+      <td>ICT</td>
+      
+    </tr>
+    <tr> <td>Kazi Rakibul Hasan</td>
+      <td>1 February </td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+     
+    </tr>
+    <tr> <td>Sharoare Hosan Emon</td>
+      <td>2 February </td>
+      <td>2:30 PM</td>
+      <td>ICT</td>
+     
+    </tr>
+    <tr> <td>Hemel Barua</td>
+      <td>2 February </td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+     
+    </tr>
+    <tr><td>Abhi Datta Tushar	</td>
+      <td>3 February </td>
+      <td>2:30 PM</td>
+      <td>ICT</td>
+      
+    </tr>
+    <tr> <td>Apurbo Opu</td>
+      <td>3 February </td>
+      <td>8:30 PM</td>
+      <td>Physics</td>
+     
+    </tr>
+    <tr>  <td>Abhi Datta Tushar	</td>
+      <td>4 February </td>
+      <td>2:30 PM</td>
+      <td>ICT</td>
+    
+    </tr>
+    <tr> <td>Kazi Rakibul Hasan</td>
+      <td>4 February </td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+     
+    </tr>
+    <tr>   <td>Rezaul Karim</td>
+      <td>5 February </td>
+      <td>2:30 PM</td>
+      <td>English</td>
+   
+    </tr>
+    <tr><td>Hasnat Shuvro</td>
+      <td>5 February </td>
+      <td>8:30 PM</td>
+      <td>Biology</td>
+      
+    </tr>
+    <tr>   <td>Shampod Bhowmick</td>
+      <td>6 February </td>
+      <td>2:30 PM</td>
+      <td>English</td>
+   
+    </tr>
+    <tr> <td>Nazmus Sakib	</td>
+      <td>6 February </td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+     
+    </tr>
+    <tr>  <td>Hasnat Shuvro	</td>
+      <td>7 February </td> 
+      <td>2:30 PM</td>
+      <td>Biology</td>
+    
+    </tr>
+    <tr><td>Apurbo Opu</td>
+      <td>7 February </td> 
+      <td>8:30 PM</td>
+      <td>Physics</td>
+      
+    </tr>
+    <tr>  <td>Omar Faruq</td>
+      <td>8 February </td>
+      <td>2:30 PM</td>
+      <td>Bangla</td>
+    
+    </tr>
+    <tr> <td>Kazi Rakibul Hasan	</td>
+      <td>8 February </td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+     
+    </tr>
+    <tr><td>Sharoare Hosan Emon</td>
+      <td>9 February </td>
+      <td>2:30 PM</td>
+      <td>ICT</td>
+      
+    </tr>
+    <tr>   <td>Nazmus Sakib	</td>
+      <td>9 February </td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+   
+    </tr>
+    <tr> <td>Abhi Datta Tushar	</td>
+      <td>10 February </td>
+      <td>2:30 PM</td>
+      <td>ICT</td>
+     
+    </tr>
+    <tr><td>Apurbo Opu</td>
+      <td>10 February </td>
+      <td>8:30 PM</td>
+      <td>Physics</td>
+      
+    </tr>
+    <tr><td>Abhi Datta Tushar</td>
+      <td>11 February </td>
+      <td>2:30 PM</td>
+      <td>ICT</td>
+      
+    </tr>
+    <tr> <td>Kazi Rakibul Hasan	</td>
+      <td>11 February </td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+     
+    </tr>
+    <tr><td>Rezaul Karim	</td>
+      <td>12 February </td>
+      <td>2:30 PM</td>
+      <td>English</td>
+      
+    </tr>
+    <tr><td>Hasnat Shuvro	</td>
+      <td>12 February</td>
+      <td>8:30 PM</td>
+      <td>Biology</td>
+      
+    </tr>
+    <tr><td>Shampod Bhowmick</td>
+      <td>13 February </td>
+      <td>2:30 PM</td>
+      <td>English</td>
+      
+    </tr>
+    <tr><td>Nazmus Sakib</td>
+      <td> 13 February </td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+      
+    </tr>
+    <tr><td>Hasnat Shuvro	</td>
+      <td>14 February </td>
+      <td>2:30 PM</td>
+      <td>Biology</td>
+      
+    </tr>
+    <tr> <td>Apurbo Opu</td>
+      <td>14 February</td>
+      <td>8:30 PM</td>
+      <td>Physics</td>
+     
+    </tr>
+    <tr>    <td>Omar Faruq	</td>
+      <td>15 February </td>
+      <td>2:30 PM</td>
+      <td>Bangla</td>
+  
+    </tr>
+    <tr><td>Kazi Rakibul Hasan	</td>
+      <td>15 February</td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+      
+    </tr>
+    <tr>  <td>Omar Faruq	</td>
+      <td>16 February </td>
+      <td>2:30 PM</td>
+      <td>Bangla</td>
+    
+    </tr>
+    <tr><td>Nazmus Sakib	</td>
+      <td>16 February </td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+      
+    </tr>
+    <tr>   <td>Mashrur Hussain	</td>
+      <td> 17 February </td>
+      <td>8:30 PM</td>
+      <td>Physics</td>
+   
+    </tr>
+    <tr><td>Abhi Datta Tushar	</td>
+      <td> 18 February </td>
+      <td>8:30 PM</td>
+      <td>Higher Math</td>
+      
+    </tr>
+    <tr> <td>Rezaul Karim	</td>
+      <td>19 February </td>
+      <td>2:30 PM</td>
+      <td>English</td>
+     
+    </tr>
+    <tr><td>Hasnat Shuvro	</td>
+      <td>19 February</td>
+      <td>8:30 PM</td>
+      <td>Biology</td>
+      
+    </tr>
+    <tr> <td>Shampod Bhowmick</td>
+      <td>20 February </td>
+      <td>2:30 PM</td>
+      <td>English</td>
+     
+    </tr>
+    <tr><td>Sanjoy Chakraborty</td>
+      <td>20 February</td>
+      <td>8:30 PM</td>
+      <td> Chemistry </td>
+      
+    </tr>
+    <tr><td id="lang">Mashrur Hussain	</td>
+      <td id="lang">21 February</td>
+      <td id="lang"> 8:30 PM</td>
+      <td id="lang">Physics</td>
+      
+        
+    </tr>
+    <tr> <td>Omar Faruq</td>
+      <td>22 February </td>
+      <td>2:30 PM</td>
+      <td>Bangla</td>
+     
+      </tr><tr>  <td>Abhi Datta Tushar	</td>
+        <td>22 February </td>
+        <td>8:30 PM</td>
+        <td>Higher Math</td>
+      
+      </tr>
+      <tr><td>Omar Faruq	</td>
+    <td>23 February </td>
+    <td>2:30 PM</td>
+    <td>Bangla</td>
+  
+    </tr><tr>    <td>Sanjoy Chakraborty
+      </td><td> 23 February </td>
+      <td>8:30 PM</td>
+      <td>Chemistry</td>
+  
+      
+    </tr>
+  
+  <tr>  <td>Numeri Sattar Apar</td>
+    <td> 24 February </td>
+    <td>8:30 PM</td>
+    <td>Physics</td>
+  
+  </tr>
+  <tr> <td>Abhi Datta Tushar</td>
+    <td> 25 February </td>
+    <td>8:30 PM</td>
+    <td>Higher Math</td>
+   
+  </tr>
+  <tr> <td>Rezaul Karim	</td>
+    <td>26 February </td>
+    <td>2:30 PM</td>
+    <td>English</td>
+   
+  </tr>
+  <tr><td>R.H. Sarker	</td>
+    <td> 26 February </td>
+    <td>8:30 PM</td>
+    <td>Biology</td>
+    
+  </tr>
+  <tr><td>Shampod Bhowmick</td>
+    <td>27 February </td>
+    <td>2:30 PM</td>
+    <td>English</td>
+    
+  </tr>
+  <tr> <td>Sanjoy Chakraborty</td>
+    <td>27 February</td>
+    <td>8:30 PM</td>
+    <td>Chemistry</td>
+   
+  </tr>
+  <tr>  <td>R.H. Sarker	</td>
+    <td>28 February </td>
+    <td>2:30 PM</td>
+    <td>Biology</td>
+  
+  </tr>
+  <tr><td>Numeri Sattar Apar</td>
+    <td>28 February</td>
+    <td>8:30 PM</td>
+    <td>Physics</td>
+    
+  </tr>
+  <tr> <td>Omar Faruq</td>
+    <td>29 February </td>
+    <td>2:30 PM</td>
+    <td>Bangla</td>
+   
+  </tr>
+  <tr> <td>Kazi Rakibul Hasan	</td>
+    <td>29 February</td>
+    <td>8:30 PM</td>
+    <td>Higher Math</td>
+  </tr>
+  </tbody>
+</table>
+ <script src="main.js">
+    </script>
+</body>
+  </html>
