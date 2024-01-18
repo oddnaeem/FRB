@@ -1,0 +1,45 @@
+#myTable {
+     border-collapse: collapse;
+     width: 100%;
+}
+ h2{
+     text-align: center;
+}
+ #myTable td, #myTable th {
+     border: 1px solid #ddd;
+     padding: 8px;
+     text-align: center;
+}
+ #myTable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ #myTable tr:hover {
+    background-color: #ddd;
+}
+ #myTable th{
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: center;
+     background-color: #04AA6D;
+     color: white;
+}
+ #lang{
+     background-color: #ff3333;
+     color: #ddd;
+}
+ #myInput,#myInput1,#myInput2{
+     width:100%;
+    /* Full-width */
+     font-size: 16px;
+    /* Increase font-size */
+     padding: 12px 20px 12px 40px;
+    /* Add some padding */
+     border: 3px solid #0c0c0c;
+    /* Add a grey border */
+     margin-bottom: 12px;
+    /* Add some space below the input */
+}
+ #container{
+     display: grid;
+     grid-template-columns: repeat(3,1fr) ;
+}
